@@ -32,11 +32,6 @@ nav {
   height: 11vh;
   border-bottom: solid 1px whitesmoke;
 }
-main {
-  background: url("fotos/fundo.jpg") no-repeat center center;
-  background-size: cover;
-  height: 90vh;
-}
 .navList {
   list-style: none;
   display: flex;
@@ -45,4 +40,13 @@ main {
   letter-spacing: 3px;
   margin-right: 60px;
   cursor: pointer;
+}
+
+main {
+  background: url("fotos/fundo.jpg") no-repeat center center;
+  background-size: cover;
+  height: 90vh;
+  color: white;
+}
+.TextosDaMain {
 }
