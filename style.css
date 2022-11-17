@@ -47,6 +47,18 @@ main {
   background-size: cover;
   height: 90vh;
   color: white;
+  padding-left: 8vh;
+  padding-right: 8vh;
 }
-.TextosDaMain {
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  letter-spacing: 3px;
+}
+
+article {
+  width: 25rem;
+  border: solid 1px whitesmoke;
+  margin: 1rem;
 }
