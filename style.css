@@ -5,6 +5,15 @@
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   box-sizing: border-box;
 }
+
+:root {
+  --Verdeprincipal: #06aa48;
+  --Verdemaisclaro: #08d45a;
+  --Textodaslegendas: #555;
+  --Textodocabeçalho: #ffffff;
+  --roxo: #08081d;
+}
+
 a {
   color: #fff;
   text-decoration: none;
@@ -28,7 +37,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #08081d;
+  background-color: var(--roxo);
   height: 11vh;
   border-bottom: solid 1px whitesmoke;
 }
@@ -43,7 +52,6 @@ nav {
 }
 
 main {
-  background: url("fotos/fundo.jpg") no-repeat center center;
   background-size: cover;
   height: 90vh;
   color: white;
@@ -61,4 +69,23 @@ article {
   width: 25rem;
   border: solid 1px whitesmoke;
   margin: 1rem;
+}
+
+.legenda {
+  color: var(--Textodaslegendas);
+  font-size: 12px;
+}
+
+.tituloPoster {
+  color: var(--Verdeprincipal);
+}
+p {
+  color: var(--Textodaslegendas);
+}
+
+#Grad {
+  height: 200px;
+  height: 300vh;
+  background-color: var(--roxo);
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(43, 6, 69));
 }
