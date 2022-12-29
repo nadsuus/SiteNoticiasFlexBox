@@ -55,8 +55,7 @@ main {
   background-size: cover;
   height: 90vh;
   color: white;
-  padding-left: 8vh;
-  padding-right: 8vh;
+padding: auto auto;
 }
 
 section {
@@ -66,7 +65,7 @@ section {
 }
 
 article {
-  width: 25rem;
+  width: 20rem;
   border: solid 1px whitesmoke;
   margin: 1rem;
 }
@@ -74,6 +73,7 @@ article {
 .legenda {
   color: var(--Textodaslegendas);
   font-size: 12px;
+  text-align:center;
 }
 
 .tituloPoster {
@@ -84,8 +84,11 @@ p {
 }
 
 #Grad {
-  height: 200px;
-  height: 300vh;
+  height: 200vh;
   background-color: var(--roxo);
   background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(43, 6, 69));
+}
+
+.fotosPicture,img {
+  width: 30vh;    
 }
