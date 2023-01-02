@@ -14,6 +14,10 @@
   --roxo: #08081d;
 }
 
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
 a {
   color: #fff;
   text-decoration: none;
@@ -38,7 +42,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   background-color: var(--roxo);
-  height: 11vh;
+  height: 8vh;
   border-bottom: solid 1px whitesmoke;
 }
 .navList {
@@ -49,23 +53,31 @@ nav {
   letter-spacing: 3px;
   margin-right: 60px;
   cursor: pointer;
+  background-color: rgba(149, 11, 247, 0.555);
+  border-radius: 10px;
+  padding: 8px;
 }
 
 main {
   background-size: cover;
   height: 90vh;
   color: white;
-padding: auto auto;
+  padding: auto auto;
 }
 
 section {
   display: flex;
   flex-wrap: wrap;
+  gap: 10px;
   letter-spacing: 3px;
+  padding-left: 15vh;
+  padding-right: 15vh;
+  width: auto auto;
 }
 
 article {
-  width: 20rem;
+  width: 320px;
+  height: 400px;
   border: solid 1px whitesmoke;
   margin: 1rem;
 }
@@ -73,7 +85,7 @@ article {
 .legenda {
   color: var(--Textodaslegendas);
   font-size: 12px;
-  text-align:center;
+  text-align: center;
 }
 
 .tituloPoster {
@@ -89,6 +101,8 @@ p {
   background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(43, 6, 69));
 }
 
-.fotosPicture,img {
-  width: 30vh;    
+.fotosPicture,
+img {
+  width: 317px;
+  height: 200px;
 }
