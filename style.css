@@ -58,13 +58,6 @@ nav {
   padding: 8px;
 }
 
-main {
-  background-size: cover;
-  height: 90vh;
-  color: white;
-  padding: auto auto;
-}
-
 section {
   display: flex;
   flex-wrap: wrap;
@@ -76,12 +69,23 @@ section {
 }
 
 article {
-  width: 320px;
-  height: 400px;
+  width: 300px;
+  height: 350px;
   border: solid 1px whitesmoke;
   margin: 1rem;
 }
 
+main {
+  background-size: cover;
+  height: 90vh;
+  color: white;
+  padding: auto auto;
+}
+
+.footer {
+  background-color: var(--Verdeprincipal);
+  width: 11vh;
+}
 .legenda {
   color: var(--Textodaslegendas);
   font-size: 12px;
@@ -90,15 +94,11 @@ article {
 
 .tituloPoster {
   color: var(--Verdeprincipal);
+  font-size: 20px;
 }
 p {
   color: var(--Textodaslegendas);
-}
-
-#Grad {
-  height: 200vh;
-  background-color: var(--roxo);
-  background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(43, 6, 69));
+  font-size: 15px;
 }
 
 .fotosPicture,
