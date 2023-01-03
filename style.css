@@ -61,23 +61,20 @@ nav {
 section {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 35px;
   letter-spacing: 3px;
-  padding-left: 15vh;
-  padding-right: 15vh;
-  width: auto auto;
+  padding: 50px;
 }
 
 article {
-  width: 300px;
-  height: 350px;
-  border: solid 1px whitesmoke;
+  width: 320px;
+  height: 200px;
+  border: solid 1px var(--Verdemaisclaro);
   margin: 1rem;
 }
 
 main {
   background-size: cover;
-  height: 90vh;
   color: white;
   padding: auto auto;
 }
@@ -88,21 +85,21 @@ main {
 }
 .legenda {
   color: var(--Textodaslegendas);
-  font-size: 12px;
+  font-size: 10px;
   text-align: center;
 }
 
 .tituloPoster {
   color: var(--Verdeprincipal);
-  font-size: 20px;
+  font-size: 18px;
 }
 p {
   color: var(--Textodaslegendas);
-  font-size: 15px;
+  font-size: 12px;
 }
 
 .fotosPicture,
 img {
-  width: 317px;
+  width: 320px;
   height: 200px;
 }
