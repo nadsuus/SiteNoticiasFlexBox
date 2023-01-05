@@ -112,6 +112,5 @@ img {
 }
 
 .footer {
-  background-color: var(--Verdeprincipal);
-  width: 11vh;
+  background-color: var(--Verdeprincipal);;
 }
