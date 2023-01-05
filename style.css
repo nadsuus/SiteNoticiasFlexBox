@@ -74,9 +74,15 @@ article {
 }
 
 main {
-  background-size: cover;
-  color: white;
-  padding: auto auto;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    113deg,
+    rgba(0, 0, 0, 0.9836309523809523) 3%,
+    rgba(14, 0, 64, 1) 17%,
+    rgba(66, 7, 56, 1) 19%,
+    rgba(14, 0, 64, 0.9836309523809523) 28%,
+    rgba(0, 0, 0, 0.9836309523809523) 92%
+  );
 }
 
 .footer {
