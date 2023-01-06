@@ -1,0 +1,35 @@
+header {
+  background-color: #08081d;
+  font-size: 20px;
+  margin: 0px;
+}
+
+h1 {
+  margin: 0px;
+  color: #fff;
+  padding: 15px;
+}
+
+form {
+  background-color: #b2b2b2;
+  margin-top: 20px;
+  padding: 15px;
+}
+
+label {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+input {
+  font-size: 1.3rem;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+button {
+  display: block;
+  margin-top: 10px;
+}
