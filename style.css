@@ -15,7 +15,7 @@
 .logoText {
   /*TITULO NA NAV*/
   font-size: 5vh;
-  color: white;
+  color: #fff;
   margin-left: 2vh;
 }
 
@@ -26,7 +26,7 @@ nav {
   align-items: center;
   background-color: #08081d;
   height: 10vh;
-  border-bottom: solid 1px whitesmoke;
+  border-bottom: solid 1px #fff;
 }
 a {
   /* NAV BAR*/
