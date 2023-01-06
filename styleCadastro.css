@@ -1,5 +1,10 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
 header {
-  background-color: #08081d;
+  background-color: #191919;
   font-size: 20px;
   margin: 0px;
 }
