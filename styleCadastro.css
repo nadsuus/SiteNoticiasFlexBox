@@ -31,11 +31,18 @@ label {
 
 input {
   font-size: 1.3rem;
-  padding: 8px;
+  padding: 5px;
   border-radius: 8px;
 }
 
 button {
   display: block;
   margin-top: 10px;
+}
+
+.catalogos {
+  background-color: #191919;
+  padding: 15px;
+  border-top: solid #fff 1px;
+  color: #fff;
 }
